@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.jarvis_app_v_real.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.jarvis_app_v_real.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.jarvis_app_v_real.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_graph"
+        android:name="com.example.jarvis_app_v_real.ui.graph.GraphFragment"
+        android:label="fragment_graph"
+        tools:layout="@layout/fragment_graph" />
+    <fragment
+        android:id="@+id/navigation_light"
+        android:name="com.example.jarvis_app_v_real.ui.light.LightFragment"
+        android:label="fragment_light"
+        tools:layout="@layout/fragment_light" />
+    <fragment
+        android:id="@+id/navigation_pw"
+        android:name="com.example.jarvis_app_v_real.ui.pws.PwFragment"
+        android:label="fragment_pw"
+        tools:layout="@layout/fragment_pw" />
+</navigation>
